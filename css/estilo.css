@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,700);
+/*font-family: 'Raleway', sans-serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*font-family: 'Open Sans', sans-serif;*/
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+.cleaner{
+	clear: both;
+}
+
+.wrapper{
+	width: 1200px;
+	margin: auto;
+
+}
+
+.logo{
+	float: right;
+}
+
+.datosderecha{
+	float:left;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+span{
+     display: inline-block;
+     padding-bottom: 10px;
+    }
+
+
+i{
+	display: inline-block;
+}
+
+
+h3{
+	text-align: left;
+}
+
+.perfil{
+	float: left;
+}
+
+.texabout{
+	position:relative;
+	padding-top:-50px;
+	display: inline;
+
+}
+
+.aboutme h3 i, 
+.aboutme h3 span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.aboutme h3 i{
+	font-size: 40px;
+}
+
+
+.habilidades{
+   padding: 20px;
+}
+.lenguajes article{
+	text-align: center;
+	width: 15%;
+	float: left;
+	padding: 0 40px 0 40px;
+	position: relative;
+
+}
+
+
+.educacion h3 i,
+.educacion h3 span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+
+}
+.contacto h3 i,
+.contacto h3 span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.contacto{
+  
+}
+
+.contacto-izq{
+	float: left;
+	width: 47%;
+	border:1px solid red;
+
+}
+
+.contacto-der{
+	float: right;
+	width: 47%;
+	border: 1px solid blue;
+	
+    
+	
+}
+
+
+
+
+.mi-tamano{
+	font-size: 95px;
+}
