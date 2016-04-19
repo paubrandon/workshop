@@ -5,14 +5,26 @@
 /*font-family: 'Open Sans', sans-serif;*/
 
 
+* {
+
+	box-sizing: border-box;
+}
+
+}
+
 body{
 	font-family: 'Raleway', sans-serif;
+	margin: 0px;
 
 	
 }
 
 a link {
 	text-decoration: none;
+}
+
+hr{
+	color: #9933FF;
 }
 
 .cleaner{
@@ -25,24 +37,31 @@ a link {
 	padding: 20px;
 	border: 2px solid #9933FF;
     border-radius: 25px;
+  
 }
 
 
 
 .logo{
 	float: right;
+	/*background-color: green;*/
+
 }
 
 .datosderecha{
 	float:left;
 	margin-bottom: 20px;
 	display: inline-block;
+	/*background-color: red;*/
+
 }
 
 span{
      display: inline-block;
      padding-bottom: 10px;
     }
+
+
 
 
 i{
@@ -62,13 +81,15 @@ h3{
 	position:relative;
 	padding-top:-50px;
 	display: inline;
-
+	margin: 20px;
+	width: 100%;
 }
 
 .aboutme h3 i, 
 .aboutme h3 span{
 	display: inline-block;
 	vertical-align: middle;
+	padding: 5px;
 }
 
 .aboutme h3 i{
@@ -76,15 +97,29 @@ h3{
 }
 
 
+
+
 .habilidades{
-   padding: 20px;
+	margin-bottom: 30px;
 }
+
+.habilidades h3 img,
+.habilidades h3 span{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+
+
 .lenguajes article{
 	text-align: center;
-	width: 15%;
+	width: 25%;
 	float: left;
 	padding: 0 40px 0 40px;
 	position: relative;
+	 /*background-color: yellow;*/
 
 }
 
@@ -93,6 +128,7 @@ h3{
 .educacion h3 span{
 	display: inline-block;
 	vertical-align: middle;
+	padding: 5px;
 }
 
 
@@ -103,12 +139,12 @@ h3{
 .contacto h3 span{
 	display: inline-block;
 	vertical-align: middle;
+    padding: 5px;
+
 }
 
 
-.contacto{
-  
-}
+
 
 .contacto-izq{
 	float: left;
@@ -135,6 +171,7 @@ input[type="text"]{
 	width: 98%;
 	height: 32%;
 	padding: 2px;
+	font-family: 'Raleway'
 
 }
 
@@ -146,8 +183,9 @@ label input[type="text"]{
 
 textarea{
 	width: 98%;
-	height: 98%;
+	height: 90%;
 	padding: 0px;
+	
 }
 
 
@@ -155,11 +193,158 @@ textarea{
 	 /* background-color: green;*/
 	  text-align: center;
 	   margin-top: 30px;
+
+}
+
+label input[type=submit]{
+	/*width: 200px;*/
+	background-color:#9933FF;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 20px;
+	width: 8em;
+	height: 3em;
+
+	/*COLOR PICKER (CTRL + SHIFT + C)*/
 }
 
 
 
 
-.mi-tamano{
-	font-size: 95px;
+.mi-html{
+	color:#FF6633;
+
+
+}
+
+.mi-css{
+	color: #336699;
+}
+
+
+/*Configuracion responsive*/
+
+
+
+@media (max-width: 860px){
+	.wrapper{
+		width: 96%;
+		border-radius:none;
+
+	}
+
+	
+@media (max-width: 700px){
+	.habilidades{
+		margin-bottom: none;
+
+	}
+
+   .estrellas{
+   
+    display: inline-block;
+    font-size: 0.7em;
+   }
+   
+.logo{
+   	float: none;
+    display: block;
+    position: relative;
+    margin: 15px;
+    text-align: center;
+  
+
+   }
+
+
+.datosderecha h3{
+
+	text-align: center;
+}
+
+.datosderecha{
+	float:none;
+	position: relative;
+	margin-bottom: 20px;
+	display: block;
+	/*background-color: red;*/
+	text-align: center;
+
+}
+
+
+
+
+
+
+.lenguajes p{
+     margin: auto;
+     font-size: 0.75em;
+     padding-top:5px;
+}
+
+
+
+.mi-html, .mi-sass, .mi-linux, .mi-css{
+	
+	font-size:4em;
+
+
+}
+
+@media (max-width: 480px){
+
+
+
+.lenguajes article{
+	text-align: center;
+	width: 100%;
+
+	float: none;
+	padding: 10px;
+	position: relative;
+	 
+
+}
+
+
+.educacion i,
+.contacto i,
+.aboutme i 
+{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+label input[type=submit]{
+	
+	background-color:#9933FF;
+	color: #fff;
+	font-size: 10px;
+
+}
+
+
+input[type="text"]{
+
+	font-size: 10px;
+
+}
+
+label input[type="text"]{
+      /*background-color: yellow;*/
+      margin-top:0px;
+	  margin-bottom: 30px;
+}
+
+textarea{
+	font-size: 10px;
+	
 }
