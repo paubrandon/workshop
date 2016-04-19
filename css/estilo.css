@@ -36,7 +36,7 @@ hr{
 	margin: auto;
 	padding: 20px;
 	border: 2px solid #9933FF;
-    border-radius: 25px;
+    	border-radius: 25px;
   
 }
 
@@ -139,7 +139,7 @@ h3{
 .contacto h3 span{
 	display: inline-block;
 	vertical-align: middle;
-    padding: 5px;
+    	padding: 5px;
 
 }
 
@@ -160,7 +160,7 @@ h3{
 	float: right;
 	width: 47%;
 	/*border: 1px solid blue;*/
-    height: 120px;	
+	 height: 120px;	
 
   
 	
@@ -171,20 +171,21 @@ input[type="text"]{
 	width: 98%;
 	height: 32%;
 	padding: 2px;
-	font-family: 'Raleway'
+	font-family: inherit;
 
 }
 
 label input[type="text"]{
       /*background-color: yellow;*/
-      margin-top:0px;
-	  margin-bottom: 30px;
+	margin-top:0px;
+	margin-bottom: 30px;
 }
 
 textarea{
 	width: 98%;
 	height: 90%;
 	padding: 0px;
+	font-family: inherit;
 	
 }
 
